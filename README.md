@@ -8,11 +8,12 @@ below a specific location on the file system. It also allows filtering the searc
 * arg1 - path to the directory where you want to find files,
 * arg2 - file suffix (extension), e.g. doc, xls, txt, etc.
 * arg3 - [optional] filter of the search results. It will discard the files that do not contain the specified expression.
-      
+* arg4 - [optional] unwanted pattern in the filenames. It will find files whose filenames contain the expression - experiment_2018 but do not contain - mouse. 
+
 ## Example:
   
 ```
-./find_files.sh ~/ doc *experiment_2018*
+./find_files.sh ~/ doc *experiment_2018* *mouse*
 ```
 
 To see the help run: `./find_files.sh -h`

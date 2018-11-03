@@ -9,7 +9,7 @@ below a specific location on the file system. It also allows filtering the searc
 * arg2 - file suffix (extension), e.g. doc, xls, txt, etc.
 * arg3 - [optional] filter of the search results. It will discard the files that do not contain the specified expression.
       
-Example:
+## Example:
   
 ```
 ./find_files.sh ~/ doc *experiment_2018*

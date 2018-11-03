@@ -20,7 +20,7 @@ fi
 
 # check if 2 arguments are passed
 if [[ ("$#" -gt 4) || ("$#" -lt 1) ]]; then 
-	echo "Error. Only two,3 or 4 parameters should be specified: location, suffix, filter expression. See $0 -h for more info."
+	echo "Error. Only 2, 3 or 4 parameters should be specified: location, suffix, filter expression1, filter expression2. See $0 -h for more info."
 # check if directory (location) exists
 elif [ ! -d "$1" ]; then
 	echo "Directory $1 does not exist"
